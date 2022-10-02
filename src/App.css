@@ -1,0 +1,26 @@
+.App {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+}
+
+#openGuard {
+  font-size: large;
+  color: blue;
+
+}
+
+#fullGuard {
+  color: green;
+}
+
+#halfGuard {
+  color: red;
+}
+
+#sideMount {
+  color: blueviolet;
+}
+
+#fullMount {
+  color: brown
+}
