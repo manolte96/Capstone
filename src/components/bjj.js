@@ -1,4 +1,4 @@
-import './App.css';
+//this page is essentially just notes
 <>
 <div id="Intro"/>
 
@@ -46,4 +46,3 @@ Top player has positioned themself behind their opponent and will likely begin t
 </div>
 </>
 
-export default BJJ

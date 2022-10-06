@@ -1,4 +1,8 @@
 import React from "react";
+import { useNavigate, Link } from "react-router-dom";
+import { AppBar, Toolbar, IconButton, Typography  } from "@mui/material"
+import MenuIcon from '@mui/icons-material/Menu';
+import cookie from "cookie"
 
 const Navigation = () => {
     const navigate = useNavigate();
@@ -10,8 +14,8 @@ const Navigation = () => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" style={{ flexGrow: "1" }}>
-            FakeCars.com
-          </Typography>
+              BJJ App
+         </Typography>
           <ul className="nav-list">
             <li className="nav-list-item">
               <Link to="/">Home</Link>

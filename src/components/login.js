@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { Container, TextField, Button } from "@mui/material"
 import { render } from "react-dom";
 
 const Login = () => {
@@ -22,12 +24,11 @@ const Login = () => {
     const login = (e) => {
       e.preventDefault();
       // set cookie here
-      // set loggedIn = true and max-age = 60*1000 (one minute)
   document.cookie = "loggedin=true;max-age=60*1000"
       navigate("/");
     };
   
-    return (
+    return render(
       <div className="App">
         <Container maxWidth="sm">
           <form className="login-form" onSubmit={login}>
