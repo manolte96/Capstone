@@ -4,30 +4,30 @@ const state = {
       email: 'test-user@example.com',
 
 
-    cars: [
+    positions: [
         {
             "id": 1,
             "Name":"Open Guard",
             "Details":"The idea of Open Guard refers to a situation after the Top and Bottom Players have been established, but at a time where no contact is being made between them. They might have seperated following a successful takedown where only one Player returned to their feet, or the Bottom Player might simply have sat down to begin the roll. Open Guard might not have any submissions directly related to it, but their are direct paths to submission scenarios for both players. For Bottom Players, see leg entaglements like De la Riva Guard. For Top Players, see Rolling Submission variations, such as Kimuras or Guillotines.",
             "Common Submissions: Bottom Player":"None",
             "Common Submissions: Top Player":"None",
-            "Variations":"Bottom Player: De la Riva Guard, Reverse De la Riva Guard"
+            "Variations":"De la Riva Guard, Reverse De la Riva Guard"
          },
          {
             "id": 2,
-            "Name":"Full Guard",
-            "Details":"Full Guard is generally thought of as the safest guard for the Bottom Player. It is very unlikely that in a match of equal skill, the Bottom Player will be submitted in a Full Guard scenario. However, if the Top Player is able to open or split the Guard of the Bottom Player, they are then able to fall back to attack the legs or to move forward to pass the Guard - achieving some version of Mount. Some variations include Butterfly Guard, where the Bottom Player will look to have inside positioning with both feet and will attempt to elevate the Top Player, and Rubber Guard, where the Bottom Player looks to add their leg into a clinch on the head and shoulders. (Look into it.)",
-            "Common Submissions: Bottom Player":"Armbar, Triangle Choke, Guillotine",
-            "Common Submissions: Top Player":"None",
-            "Variations":"Butterfly Guard, Rubber Guard, Williams Guard, K-Guard"
-         },
-         {
-            "id": 3,
             "Name":"Half Guard",
             "Details":"Half Guard is a trickier, generally more nuanced version of a Guard due to the proximity of both Players to an advantageous position. The Bottom Player has a lock with both legs around a single leg of the Top Player. Therefore, the Top Player only needs to free that one trapped leg to achieve a Mount, whereas both legs were contained in Full Guard. However, the Bottom Player might attack the Back Mount from the side on which they have their Guard set. It is important for the Bottom Player not to allow themselves to be flattened out, and for the Top Player to attempt to do exactly that. Other forms of Half Guard include the Lockdown, which sees the Bottom Player reverse the triangle on the legs from the outside to the inside, and Butter-Half, where the lower leg of the Bottom Player hooks in a Half Guard, and the higher leg achieves a Butterly hook.",
             "Common Submissions: Bottom Player":"Kimura",
             "Common Submissions: Top Player":"Kimura, Americana, Straight Armbar",
             "Variations":"Lockdown, Butter-Half"
+         },
+         {
+            "id": 3,
+            "Name":"Full Guard",
+            "Details":"Full Guard is generally thought of as the safest guard for the Bottom Player. It is very unlikely that in a match of equal skill, the Bottom Player will be submitted in a Full Guard scenario. However, if the Top Player is able to open or split the Guard of the Bottom Player, they are then able to fall back to attack the legs or to move forward to pass the Guard - achieving some version of Mount. Some variations include Butterfly Guard, where the Bottom Player will look to have inside positioning with both feet and will attempt to elevate the Top Player, and Rubber Guard, where the Bottom Player looks to add their leg into a clinch on the head and shoulders. (Look into it.)",
+            "Common Submissions: Bottom Player":"Armbar, Triangle Choke, Guillotine",
+            "Common Submissions: Top Player":"None",
+            "Variations":"Butterfly Guard, Rubber Guard, K-Guard"
          },
          {
             "id": 4,

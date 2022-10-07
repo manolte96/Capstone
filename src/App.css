@@ -42,14 +42,18 @@ font: bold;
 }
 
 .card-container {
-  display: flex;
-  justify-content: space-between;
+  display: inline-block;
+  flex-direction: row;
   flex-wrap: wrap;
+  font-size: large;
+  /* display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; */
 }
 
 .card {
-  width: 20vw;
-  margin: 25px;
+  width: 40vw;
+  margin: 40px;
 }
 
 a {
@@ -59,10 +63,6 @@ a {
 
 ul {
   padding-inline-start: 20px;
-}
-
-.text-gray {
-  color: gray
 }
 
 .nav-list {
@@ -78,10 +78,3 @@ ul {
   cursor: pointer;
 }
 
-.car-container {
-  margin: 50px;
-}
-
-.car-paper {
-  padding: 50px;
-}
