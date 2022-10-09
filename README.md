@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+Hello there!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the first step of my attempt to create an application to aid in the learning of Brazilian JiuJitsu. 
 
-## Available Scripts
+My app is not close to what I have envisioned, but I have not yet given up hope. 
 
-In the project directory, you can run:
 
-### `npm start`
+THE IDEA:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Each user would enter their username, create a password, and select their belt level. Eventually, belt colors would instead be used to designate subscription tiers, but that's far away.
+Ideally, the app was thought of as a way to interact with positions and techniques from JiuJitsu using the same mental, step-by-step process that is required on the mats. 
+The idea was for the basic outlines of the main positions to be rendered down the left hand side of the screen in a column, with additional details availible on click. 
+Eventually, the additional details click would also render photos or a video of the position, as well as links to techniques (sweeps, submissions, guard passes, etc.) specific to that position. 
+As more development is completed on the app, more advanced positions and techniques will be added. 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+THE END GOAL:
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The end goal would see the application linked to a private YouTube channel where I would demonstrate the techniques featured in my app.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+As you'll see if you launch my app, it's not there yet.
+But it is on the way.
+I'll continue plodding away at this, and using this app to test out different things I learn, in both coding and JiuJitsu.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Thanks for stopping by, check back for updates!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
