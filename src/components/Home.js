@@ -2,9 +2,20 @@ import React from 'react'
 import { Card, CardContent, CardActions, Divider } from '@mui/material'
 import { Link } from 'react-router-dom'
 import positions from '../positions.json' // remove this
+import { Button } from '@mui/material'
+import Details from './Details'
+import { useState } from 'react'
 
 const Home = (props) => {
+    const [details, setDetails] = useState()
+    const seeDetails = (e, position) => {
+          e.preventDefault();
+        console.log("JiuJitsu")
+        console.log(position.id)
+
+    }
     return (
+        <div className="parent-Div">
         <div className="card-container">
            
             {positions.map((position, idx) => (
@@ -19,11 +30,23 @@ const Home = (props) => {
                         </ul>
                     </CardContent>
                     <Divider />
-                    <CardActions style={{ color: 'blue' }}>
+                    <Button onClick={() => {
+                        console.log(position.Details)
+                        setDetails(position.Details)
+                        }} >
+                        See Position Details
+                    </Button>
+                    {/* <CardActions style={{ color: 'blue' }}>
+
                         <Link to={`/position/${position.id}`}>See More Details</Link>
-                    </CardActions>
+                    </CardActions> */}
                 </Card>
             ))}
+        </div>
+        <div className='sister-Div'>
+            this might be something cool!
+            <Details details={details} />
+        </div>
         </div>
     )
 }
