@@ -41,14 +41,16 @@
 font: bold;
 }
 
+.sister-Div {
+font: red
+}
+
 .card-container {
-  display: inline-block;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   font-size: large;
-  /* display: flex;
   justify-content: space-between;
-  flex-wrap: wrap; */
 }
 
 .card {

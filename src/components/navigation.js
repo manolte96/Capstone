@@ -10,7 +10,7 @@ const Navigation = () => {
     return (
       <AppBar position="relative">
         <Toolbar>
-           <Typography variant="h6" style={{ flexGrow: "1" }}>
+           <Typography variant="h6" style={{ flexGrow: "0" }}>
             ./jiuJitsu
          </Typography>
           <ul className="nav-list">

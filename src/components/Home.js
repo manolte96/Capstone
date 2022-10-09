@@ -6,6 +6,7 @@ import { Button } from '@mui/material'
 import Details from './Details'
 import { useState } from 'react'
 
+
 const Home = (props) => {
     const [details, setDetails] = useState()
     const seeDetails = (e, position) => {
@@ -44,7 +45,7 @@ const Home = (props) => {
             ))}
         </div>
         <div className='sister-Div'>
-            this might be something cool!
+            {/* this might be something cool! */}
             <Details details={details} />
         </div>
         </div>
