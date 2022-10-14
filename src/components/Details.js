@@ -1,4 +1,7 @@
 import { positions } from '@mui/system';
+import { Card, CardContent, CardActions, Divider } from '@mui/material'
+import { Button } from '@mui/material'
+import { Link } from 'react-router-dom'
 import React from 'react'
 
 
@@ -8,11 +11,22 @@ import React from 'react'
 
     
     return (
-        <div style={{ padding:'25px', display: 'flexbox', position: 'absolute',
-        right: '0', justifyContent: 'right', border: '1px solid black'}} id='Details-Div'>
-          <p>Positional Details</p>
-          <p> {props.details} </p>
-        </div>
+        <Card id='Details-Div'>
+          <CardContent >
+            Positional Details 
+            <Link to='/'>
+            <Button > Submissions </Button> 
+            </Link >
+            <Link to='/'>
+            <Button > Sweeps </Button> 
+            </Link >
+            </CardContent >
+
+            <Divider />
+            <CardContent >
+           {props.details} 
+           </CardContent >
+        </Card >
     );
     }
 

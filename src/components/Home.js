@@ -5,14 +5,18 @@ import positions from '../positions.json' // remove this
 import { Button } from '@mui/material'
 import Details from './Details'
 import { useState } from 'react'
+import cookie from 'cookie'
 
 
 const Home = (props) => {
+    const cookies=cookie.parse(document.cookie)
+    
     const [details, setDetails] = useState()
     const seeDetails = (e, position) => {
           e.preventDefault();
         console.log("JiuJitsu")
         console.log(position.id)
+    
 
     }
     return (

@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Container, TextField, Button } from "@mui/material"
-import { render } from "react-dom";
+//import { render } from "react-dom";
 
-const Login = () => {
+ const Login = () => {
     const navigate = useNavigate();
   
     const [state, setState] = useState({
@@ -23,14 +23,13 @@ const Login = () => {
   
     const login = (e) => {
       e.preventDefault();
-      // set cookie here
   document.cookie = "loggedin=true;max-age=60*1000"
       navigate("/");
     };
   
-    return render(
+    return (
       <div className="App">
-        <Container maxWidth="sm">
+        <Container >
           <form className="login-form" onSubmit={login}>
             <TextField
               required
@@ -60,7 +59,7 @@ const Login = () => {
         </Container>
       </div>
     );
-  };
+   };
   
   export default Login;
   

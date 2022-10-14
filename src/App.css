@@ -25,6 +25,10 @@
   color: brown
 } */
 
+/* This was from details.js */
+/* style={{ padding:'10px', display: 'flexbox',
+  justifyContent: 'right', border: '1px solid black'}} */
+
 .App {
   text-align: center;
 }
@@ -42,7 +46,14 @@ font: bold;
 }
 
 .sister-Div {
-font: red
+font: red;
+position: fixed;
+z-index: -1;
+bottom: 0;
+right: 0;
+padding-left: 50%;
+height: 50vh;
+
 }
 
 .card-container {
@@ -53,6 +64,9 @@ font: red
   justify-content: space-between;
 }
 
+.parent-Div {
+  display: flex;
+}
 .card {
   width: 40vw;
   margin: 40px;
